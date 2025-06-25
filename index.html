@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DSA Roadmap Progress Tracker</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; background: #f8f9fa; }
+    h1 { color: #2a3d66; }
+    h2 { color: #3c5fa6; margin-top: 40px; }
+    .topic { margin-bottom: 25px; }
+    ul { list-style: none; padding-left: 0; }
+    li { margin: 8px 0; }
+    label { margin-left: 8px; cursor: pointer; }
+    .progress-container { margin: 15px 0 30px 0; }
+    progress { width: 300px; height: 18px; vertical-align: middle; }
+    .bar-label { margin-left: 15px; font-weight: bold; }
+    .question-link { text-decoration: none; color: #1a4ba3; }
+    .question-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<h1>DSA Roadmap Progress Tracker</h1>
+<p>Check off problems as you solve them. Your progress will be saved in your browser.</p>
+
+<!-- Arrays & Lists -->
+<div class="topic" id="arrays">
+  <h2>Arrays & Lists</h2>
+  <div class="progress-container">
+    <progress id="progress-arrays" max="7" value="0"></progress>
+    <span class="bar-label" id="label-arrays">0 / 7</span>
+  </div>
+  <ul>
+    <li><input type="checkbox" class="arrays" id="q1"><label for="q1"><a class="question-link" href="https://leetcode.com/problems/two-sum/" target="_blank">Two Sum (#1)</a></label></li>
+    <li><input type="checkbox" class="arrays" id="q2"><label for="q2"><a class="question-link" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank">Best Time to Buy and Sell Stock (#121)</a></label></li>
+    <li><input type="checkbox" class="arrays" id="q3"><label for="q3"><a class="question-link" href="https://leetcode.com/problems/contains-duplicate/" target="_blank">Contains Duplicate (#217)</a></label></li>
+    <li><input type="checkbox" class="arrays" id="q4"><label for="q4"><a class="question-link" href="https://leetcode.com/problems/product-of-array-except-self/" target="_blank">Product of Array Except Self (#238)</a></label></li>
+    <li><input type="checkbox" class="arrays" id="q5"><label for="q5"><a class="question-link" href="https://leetcode.com/problems/maximum-subarray/" target="_blank">Maximum Subarray (#53)</a></label></li>
+    <li><input type="checkbox" class="arrays" id="q6"><label for="q6"><a class="question-link" href="https://leetcode.com/problems/3sum/" target="_blank">Three Sum (#15)</a></label></li>
+    <li><input type="checkbox" class="arrays" id="q7"><label for="q7"><a class="question-link" href="https://leetcode.com/problems/trapping-rain-water/" target="_blank">Trapping Rain Water (#42)</a></label></li>
+  </ul>
+</div>
+
+<!-- Strings -->
+<div class="topic" id="strings">
+  <h2>Strings</h2>
+  <div class="progress-container">
+    <progress id="progress-strings" max="7" value="0"></progress>
+    <span class="bar-label" id="label-strings">0 / 7</span>
+  </div>
+  <ul>
+    <li><input type="checkbox" class="strings" id="q8"><label for="q8"><a class="question-link" href="https://leetcode.com/problems/valid-palindrome/" target="_blank">Valid Palindrome (#125)</a></label></li>
+    <li><input type="checkbox" class="strings" id="q9"><label for="q9"><a class="question-link" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank">Longest Substring Without Repeating (#3)</a></label></li>
+    <li><input type="checkbox" class="strings" id="q10"><label for="q10"><a class="question-link" href="https://leetcode.com/problems/group-anagrams/" target="_blank">Group Anagrams (#49)</a></label></li>
+    <li><input type="checkbox" class="strings" id="q11"><label for="q11"><a class="question-link" href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank">Longest Palindromic Substring (#5)</a></label></li>
+    <li><input type="checkbox" class="strings" id="q12"><label for="q12"><a class="question-link" href="https://leetcode.com/problems/minimum-window-substring/" target="_blank">Minimum Window Substring (#76)</a></label></li>
+    <li><input type="checkbox" class="strings" id="q13"><label for="q13"><a class="question-link" href="https://leetcode.com/problems/implement-strstr/" target="_blank">Implement strStr() (#28)</a></label></li>
+    <li><input type="checkbox" class="strings" id="q14"><label for="q14"><a class="question-link" href="https://leetcode.com/problems/decode-string/" target="_blank">Decode String (#394)</a></label></li>
+  </ul>
+</div>
+
+<!-- Linked List -->
+<div class="topic" id="linkedlist">
+  <h2>Linked List</h2>
+  <div class="progress-container">
+    <progress id="progress-linkedlist" max="7" value="0"></progress>
+    <span class="bar-label" id="label-linkedlist">0 / 7</span>
+  </div>
+  <ul>
+    <li><input type="checkbox" class="linkedlist" id="q15"><label for="q15"><a class="question-link" href="https://leetcode.com/problems/reverse-linked-list/" target="_blank">Reverse Linked List (#206)</a></label></li>
+    <li><input type="checkbox" class="linkedlist" id="q16"><label for="q16"><a class="question-link" href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank">Merge Two Sorted Lists (#21)</a></label></li>
+    <li><input type="checkbox" class="linkedlist" id="q17"><label for="q17"><a class="question-link" href="https://leetcode.com/problems/linked-list-cycle/" target="_blank">Linked List Cycle (#141)</a></label></li>
+    <li><input type="checkbox" class="linkedlist" id="q18"><label for="q18"><a class="question-link" href="https://leetcode.com/problems/add-two-numbers/" target="_blank">Add Two Numbers (#2)</a></label></li>
+    <li><input type="checkbox" class="linkedlist" id="q19"><label for="q19"><a class="question-link" href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/" target="_blank">Remove Nth Node From End of List (#19)</a></label></li>
+    <li><input type="checkbox" class="linkedlist" id="q20"><label for="q20"><a class="question-link" href="https://leetcode.com/problems/reorder-list/" target="_blank">Reorder List (#143)</a></label></li>
+    <li><input type="checkbox" class="linkedlist" id="q21"><label for="q21"><a class="question-link" href="https://leetcode.com/problems/merge-k-sorted-lists/" target="_blank">Merge k Sorted Lists (#23)</a></label></li>
+  </ul>
+</div>
+
+<!-- Stacks / Queues -->
+<div class="topic" id="stacks">
+  <h2>Stacks / Queues</h2>
+  <div class="progress-container">
+    <progress id="progress-stacks" max="7" value="0"></progress>
+    <span class="bar-label" id="label-stacks">0 / 7</span>
+  </div>
+  <ul>
+    <li><input type="checkbox" class="stacks" id="q22"><label for="q22"><a class="question-link" href="https://leetcode.com/problems/valid-parentheses/" target="_blank">Valid Parentheses (#20)</a></label></li>
+    <li><input type="checkbox" class="stacks" id="q23"><label for="q23"><a class="question-link" href="https://leetcode.com/problems/min-stack/" target="_blank">Min Stack (#155)</a></label></li>
+    <li><input type="checkbox" class="stacks" id="q24"><label for="q24"><a class="question-link" href="https://leetcode.com/problems/implement-queue-using-stacks/" target="_blank">Implement Queue using Stacks (#232)</a></label></li>
+    <li><input type="checkbox" class="stacks" id="q25"><label for="q25"><a class="question-link" href="https://leetcode.com/problems/daily-temperatures/" target="_blank">Daily Temperatures (#739)</a></label></li>
+    <li><input type="checkbox" class="stacks" id="q26"><label for="q26"><a class="question-link" href="https://leetcode.com/problems/next-greater-element-i/" target="_blank">Next Greater Element I (#496)</a></label></li>
+    <li><input type="checkbox" class="stacks" id="q27"><label for="q27"><a class="question-link" href="https://leetcode.com/problems/evaluate-reverse-polish-notation/" target="_blank">Evaluate Reverse Polish Notation (#150)</a></label></li>
+    <li><input type="checkbox" class="stacks" id="q28"><label for="q28"><a class="question-link" href="https://leetcode.com/problems/sliding-window-maximum/" target="_blank">Sliding Window Maximum (#239)</a></label></li>
+  </ul>
+</div>
+
+<!-- Trees & BST -->
+<div class="topic" id="trees">
+  <h2>Trees & BST</h2>
+  <div class="progress-container">
+    <progress id="progress-trees" max="7" value="0"></progress>
+    <span class="bar-label" id="label-trees">0 / 7</span>
+  </div>
+  <ul>
+    <li><input type="checkbox" class="trees" id="q29"><label for="q29"><a class="question-link" href="https://leetcode.com/problems/maximum-depth-of-binary-tree/" target="_blank">Maximum Depth of Binary Tree (#104)</a></label></li>
+    <li><input type="checkbox" class="trees" id="q30"><label for="q30"><a class="question-link" href="https://leetcode.com/problems/same-tree/" target="_blank">Same Tree (#100)</a></label></li>
+    <li><input type="checkbox" class="trees" id="q31"><label for="q31"><a class="question-link" href="https://leetcode.com/problems/symmetric-tree/" target="_blank">Symmetric Tree (#101)</a></label></li>
+    <li><input type="checkbox" class="trees" id="q32"><label for="q32"><a class="question-link" href="https://leetcode.com/problems/binary-tree-level-order-traversal/" target="_blank">Binary Tree Level Order Traversal (#102)</a></label></li>
+    <li><input type="checkbox" class="trees" id="q33"><label for="q33"><a class="question-link" href="https://leetcode.com/problems/validate-binary-search-tree/" target="_blank">Validate Binary Search Tree (#98)</a></label></li>
+    <li><input type="checkbox" class="trees" id="q34"><label for="q34"><a class="question-link" href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/" target="_blank">Kth Smallest Element in a BST (#230)</a></label></li>
+    <li><input type="checkbox" class="trees" id="q35"><label for="q35"><a class="question-link" href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree/" target="_blank">Serialize and Deserialize Binary Tree (#297)</a></label></li>
+  </ul>
+</div>
+
+<!-- Graphs -->
+<div class="topic" id="graphs">
+  <h2>Graphs</h2>
+  <div class="progress-container">
+    <progress id="progress-graphs" max="7" value="0"></progress>
+    <span class="bar-label" id="label-graphs">0 / 7</span>
+  </div>
+  <ul>
+    <li><input type="checkbox" class="graphs" id="q36"><label for="q36"><a class="question-link" href="https://leetcode.com/problems/number-of-islands/" target="_blank">Number of Islands (#200)</a></label></li>
+    <li><input type="checkbox" class="graphs" id="q37"><label for="q37"><a class="question-link" href="https://leetcode.com/problems/flood-fill/" target="_blank">Flood Fill (#733)</a></label></li>
+    <li><input type="checkbox" class="graphs" id="q38"><label for="q38"><a class="question-link" href="https://leetcode.com/problems/clone-graph/" target="_blank">Clone Graph (#133)</a></label></li>
+    <li><input type="checkbox" class="graphs" id="q39"><label for="q39"><a class="question-link" href="https://leetcode.com/problems/course-schedule/" target="_blank">Course Schedule (#207)</a></label></li>
+    <li><input type="checkbox" class="graphs" id="q40"><label for="q40"><a class="question-link" href="https://leetcode.com/problems/pacific-atlantic-water-flow/" target="_blank">Pacific Atlantic Water Flow (#417)</a></label></li>
+    <li><input type="checkbox" class="graphs" id="q41"><label for="q41"><a class="question-link" href="https://leetcode.com/problems/word-ladder/" target="_blank">Word Ladder (#127)</a></label></li>
+    <li><input type="checkbox" class="graphs" id="q42"><label for="q42"><a class="question-link" href="https://leetcode.com/problems/critical-connections-in-a-network/" target="_blank">Critical Connections in a Network (#1192)</a></label></li>
+  </ul>
+</div>
+
+<!-- Bit Manipulation -->
+<div class="topic" id="bits">
+  <h2>Bit Manipulation</h2>
+  <div class="progress-container">
+    <progress id="progress-bits" max="7" value="0"></progress>
+    <span class="bar-label" id="label-bits">0 / 7</span>
+  </div>
+  <ul>
+    <li><input type="checkbox" class="bits" id="q43"><label for="q43"><a class="question-link" href="https://leetcode.com/problems/single-number/" target="_blank">Single Number (#136)</a></label></li>
+    <li><input type="checkbox" class="bits" id="q44"><label for="q44"><a class="question-link" href="https://leetcode.com/problems/number-of-1-bits/" target="_blank">Number of 1 Bits (#191)</a></label></li>
+    <li><input type="checkbox" class="bits" id="q45"><label for="q45"><a class="question-link" href="https://leetcode.com/problems/reverse-bits/" target="_blank">Reverse Bits (#190)</a></label></li>
+    <li><input type="checkbox" class="bits" id="q46"><label for="q46"><a class="question-link" href="https://leetcode.com/problems/missing-number/" target="_blank">Missing Number (#268)</a></label></li>
+    <li><input type="checkbox" class="bits" id="q47"><label for="q47"><a class="question-link" href="https://leetcode.com/problems/power-of-two/" target="_blank">Power of Two (#231)</a></label></li>
+    <li><input type="checkbox" class="bits" id="q48"><label for="q48"><a class="question-link" href="https://leetcode.com/problems/subsets/" target="_blank">Subsets (using bits) (#78)</a></label></li>
+    <li><input type="checkbox" class="bits" id="q49"><label for="q49"><a class="question-link" href="https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/" target="_blank">Maximum XOR of Two Numbers in Array (#421)</a></label></li>
+  </ul>
+</div>
+
+<!-- Backtracking -->
+<div class="topic" id="backtracking">
+  <h2>Backtracking</h2>
+  <div class="progress-container">
+    <progress id="progress-backtracking" max="7" value="0"></progress>
+    <span class="bar-label" id="label-backtracking">0 / 7</span>
+  </div>
+  <ul>
+    <li><input type="checkbox" class="backtracking" id="q50"><label for="q50"><a class="question-link" href="https://leetcode.com/problems/permutations/" target="_blank">Permutations (#46)</a></label></li>
+    <li><input type="checkbox" class="backtracking" id="q51"><label for="q51"><a class="question-link" href="https://leetcode.com/problems/subsets/" target="_blank">Subsets (#78)</a></label></li>
+    <li><input type="checkbox" class="backtracking" id="q52"><label for="q52"><a class="question-link" href="https://leetcode.com/problems/combination-sum/" target="_blank">Combination Sum (#39)</a></label></li>
+    <li><input type="checkbox" class="backtracking" id="q53"><label for="q53"><a class="question-link" href="https://leetcode.com/problems/word-search/" target="_blank">Word Search (#79)</a></label></li>
+    <li><input type="checkbox" class="backtracking" id="q54"><label for="q54"><a class="question-link" href="https://leetcode.com/problems/palindrome-partitioning/" target="_blank">Palindrome Partitioning (#131)</a></label></li>
+    <li><input type="checkbox" class="backtracking" id="q55"><label for="q55"><a class="question-link" href="https://leetcode.com/problems/sudoku-solver/" target="_blank">Sudoku Solver (#37)</a></label></li>
+    <li><input type="checkbox" class="backtracking" id="q56"><label for="q56"><a class="question-link" href="https://leetcode.com/problems/n-queens/" target="_blank">N-Queens (#51)</a></label></li>
+  </ul>
+</div>
+
+<!-- Dynamic Programming -->
+<div class="topic" id="dp">
+  <h2>Dynamic Programming</h2>
+  <div class="progress-container">
+    <progress id="progress-dp" max="7" value="0"></progress>
+    <span class="bar-label" id="label-dp">0 / 7</span>
+  </div>
+  <ul>
+    <li><input type="checkbox" class="dp" id="q57"><label for="q57"><a class="question-link" href="https://leetcode.com/problems/climbing-stairs/" target="_blank">Climbing Stairs (#70)</a></label></li>
+    <li><input type="checkbox" class="dp" id="q58"><label for="q58"><a class="question-link" href="https://leetcode.com/problems/house-robber/" target="_blank">House Robber (#198)</a></label></li>
+    <li><input type="checkbox" class="dp" id="q59"><label for="q59"><a class="question-link" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank">Best Time to Buy and Sell Stock (#121)</a></label></li>
+    <li><input type="checkbox" class="dp" id="q60"><label for="q60"><a class="question-link" href="https://leetcode.com/problems/longest-increasing-subsequence/" target="_blank">Longest Increasing Subsequence (#300)</a></label></li>
+    <li><input type="checkbox" class="dp" id="q61"><label for="q61"><a class="question-link" href="https://leetcode.com/problems/coin-change/" target="_blank">Coin Change (#322)</a></label></li>
+    <li><input type="checkbox" class="dp" id="q62"><label for="q62"><a class="question-link" href="https://leetcode.com/problems/unique-paths/" target="_blank">Unique Paths (#62)</a></label></li>
+    <li><input type="checkbox" class="dp" id="q63"><label for="q63"><a class="question-link" href="https://leetcode.com/problems/longest-valid-parentheses/" target="_blank">Longest Valid Parentheses (#32)</a></label></li>
+  </ul>
+</div>
+
+<script>
+  // Helper to update progress and save state
+  function updateProgress(topic, total) {
+    const checkboxes = document.querySelectorAll('input.' + topic);
+    let checked = 0;
+    checkboxes.forEach(cb => { if (cb.checked) checked++; });
+    document.getElementById('progress-' + topic).value = checked;
+    document.getElementById('label-' + topic).textContent = `${checked} / ${total}`;
+    // Save state
+    const state = Array.from(checkboxes).map(cb => cb.checked);
+    localStorage.setItem('dsa_' + topic, JSON.stringify(state));
+  }
+
+  // Topics and their question counts
+  const topics = [
+    {name: 'arrays', total: 7},
+    {name: 'strings', total: 7},
+    {name: 'linkedlist', total: 7},
+    {name: 'stacks', total: 7},
+    {name: 'trees', total: 7},
+    {name: 'graphs', total: 7},
+    {name: 'bits', total: 7},
+    {name: 'backtracking', total: 7},
+    {name: 'dp', total: 7}
+  ];
+
+  // Initialize progress bars and restore state
+  topics.forEach(topic => {
+    const checkboxes = document.querySelectorAll('input.' + topic.name);
+    // Restore state from localStorage
+    const saved = localStorage.getItem('dsa_' + topic.name);
+    if (saved) {
+      JSON.parse(saved).forEach((val, idx) => { checkboxes[idx].checked = val; });
+    }
+    // Add event listeners
+    checkboxes.forEach(cb => {
+      cb.addEventListener('change', () => updateProgress(topic.name, topic.total));
+    });
+    // Initial update
+    updateProgress(topic.name, topic.total);
+  });
+</script>
+
+</body>
+</html>
